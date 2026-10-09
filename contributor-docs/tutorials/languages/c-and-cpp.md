@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document C And C++
+# C and C++
 
-Use Doxygen-compatible comments for C and C++ source and header files. Keep
-parameter, return, and error descriptions close to the declaration.
-
+Use Doxygen-compatible comments for `.c`, `.h`, `.cpp`, `.cc`, `.cxx`,
+`.hpp`, `.hh`, and `.hxx`, documenting parameters, returns, and errors.

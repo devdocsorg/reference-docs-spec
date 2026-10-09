@@ -2,8 +2,6 @@
 page_type: tutorial
 ---
 
-# Document Scala
+# Scala
 
-Use Scaladoc for `.scala` and `.sc`. Keep descriptions concise and link tags
-to actual parameters and return behavior.
-
+Use Scaladoc tags for parameters, return values, and thrown errors.

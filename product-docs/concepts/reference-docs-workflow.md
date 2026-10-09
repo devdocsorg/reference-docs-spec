@@ -4,14 +4,11 @@ page_type: concept
 
 # Reference Docs Workflow
 
-The workflow turns source evidence into reviewable reference documentation
-without mutating the source repository. A run freezes a source revision,
-inventories files, selects representative files, proposes comments, records
-existing-comment decisions, audits truth, renders documentation, and waits for
-explicit approval.
+The workflow separates read authorization, source freezing, representative
+preview, broad staging, truth auditing, output acceptance, and destination
+writing. A Qualcomm source repository can never be its own destination, and no
+source branch is used as a write target.
 
-Approval is scoped: a reviewer may approve one file, one language/type, or the
-full repository. A preview is not an authorization to write. Approved writes
-target a fork or review branch, and every output links back to its source
-inventory item and evidence.
-
+The preview is evidence for the frozen snapshot, not a promise about unseen
+files. Existing comments remain unless a separately evidenced correction is
+accepted.

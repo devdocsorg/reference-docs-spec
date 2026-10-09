@@ -4,7 +4,5 @@ page_type: reference
 
 # Sidebar Render Audit
 
-Build the site, inspect `docs/content/index.html`, verify Overview, Reference,
-Configuration, and every generated API group are visible, and resolve every
-internal link.
-
+Record build status, generated route inventory, navigation before/after,
+orphaned pages, broken links, and the exact source and target revisions.

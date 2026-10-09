@@ -2,10 +2,9 @@
 page_type: tutorial
 ---
 
-# Add Inline Comments To A Codebase
+# Add Inline Comments to a Codebase
 
-Freeze the revision, inventory files, select a supported framework, map symbols
-to evidence, preserve existing comments, write one-sentence symbol summaries,
-and record typed parameters, errors, and returns. Run the truth audit before
-rendering. Use the language-specific tutorials for syntax.
-
+Freeze the source SHA, inventory and exclude paths, choose a language profile,
+preview representative files, then audit and accept additive proposals. Use
+the [shared rules](../skills/inline-reference-docs/references/inline-comment-rules.md)
+and preserve existing comments unless evidence supports a correction.

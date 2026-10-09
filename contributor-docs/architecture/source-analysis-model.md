@@ -4,8 +4,15 @@ page_type: reference
 
 # Source Analysis Model
 
-Freeze repository, branch, commit, and exclusions. Inventory files by language
-and generated/vendor status. Use structured parsers when available, then link
-symbols, signatures, exports, imports, comments, and evidence in a source
-model. Proposals must be derived from that model rather than raw code prompts.
+The analyzer resolves a repository URL and ref, records the immutable source
+SHA, inventories paths, detects language profiles, and applies generated,
+vendor, lock, minified, and build-output exclusions. It emits an exact input
+manifest and a preservation ledger before generation.
 
+Detection prefers explicit repository configuration, then extensions, then a
+shebang. Unknown languages preserve existing comments and produce a framework
+gap; the analyzer never invents comment syntax.
+
+Each proposal records repository ID, source SHA, path, symbol, signature,
+framework, statement, parameter/error/return evidence, rendered route, and
+truth disposition.

@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document Rust
+# Rust
 
-Use rustdoc comments for `.rs` items. Document arguments, errors, and returns
-only where the signature or implementation establishes them.
-
+Use rustdoc comments with purpose, `# Arguments`, `# Returns`, and `# Errors`
+sections where needed.

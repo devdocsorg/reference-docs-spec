@@ -1,29 +1,27 @@
-# Reference Docs Spec
+# reference-docs-spec
 
-`reference-docs-spec` defines a docs-first workflow for adding truthful inline
-reference documentation to an existing repository and reviewing the rendered
-result before approval.
+`reference-docs-spec` is the target specification repository for reusable
+inline reference-documentation and static-site workflows. It is distinct from
+the source repository `devdocsorg/docs-first`.
 
-Start with the [product documentation](product-docs/index.md) to understand
-the user workflow. Contributors should then read the
-[contributor documentation](contributor-docs/index.md), especially the
-[inline-reference-docs skill](contributor-docs/skills/inline-reference-docs/SKILL.md)
-and [verification commands](contributor-docs/references/verification-commands.md).
+Authority record:
 
-The accepted Qualcomm preview contract is canonical in
-[product-docs/workflows/qualcomm-preview-to-approval.md](product-docs/workflows/qualcomm-preview-to-approval.md)
-and its source artifacts are preserved in
-[contributor-docs/references/source-artifacts](contributor-docs/references/source-artifacts/).
+- Source repository: `https://github.com/devdocsorg/docs-first`
+- Source revision: `637a5bc400f7abb104f98d07b92e737dc098157`
+- Target repository: `https://github.com/justinr1234/reference-docs-spec`
+- Target revision: recorded by each release or pull request
 
-## Local verification
+The source repository owns page types, ontology, contribution rules, review
+rules, and documentation architecture. This repository owns only the accepted
+reference-docs product workflow, skills, tutorials, audits, and product
+architecture derived from that source contract.
 
-Run:
+Start with [product workflows](product-docs/workflows/index.md), then use the
+[inline documentation skill](contributor-docs/skills/inline-reference-docs/SKILL.md)
+and [static-site skill](contributor-docs/skills/sphinx-markdown-site/SKILL.md).
+The generated documentation path is [`docs/content`](examples/minimal-repository/docs/content).
 
-```sh
-python3 contributor-docs/scripts/verify_repository.py
-```
+## Verification
 
-An applied target repository builds its generated site into
-`docs/content/index.html`; the README of that target must link to that file
-path.
-
+Run `./scripts/verify.sh` from the repository root. It checks page frontmatter,
+required directories, source identity, links, and the README path reference.

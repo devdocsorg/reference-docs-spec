@@ -4,9 +4,12 @@ page_type: reference
 
 # Skill Execution Contract
 
-Each skill declares when to use it, inputs, progressive references, output
-artifacts, verification commands, and stop conditions. It records the frozen
-source revision, inventory, preservation ledger, proposals, truth audit,
-rendered output, approval scope, and cleanup. A failed or cancelled run never
-pretends that a write occurred.
+Skills are deterministic, reviewable sources. Inputs include repository path or
+URL, ref, language scope, exclusions, destination policy, and write mode.
+Outputs include inventory, exact manifests, preservation ledger, proposals,
+truth audit, route map, failures, and verification results.
 
+Workers are idempotent by authorization ID and input-manifest hash. They
+support queued, running, cancelling, cancelled, completed, partial, failed,
+and stale states. Credentials stay in the provider boundary and never enter
+prompts, artifacts, or logs.

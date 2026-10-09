@@ -2,7 +2,7 @@
 page_type: tutorial
 ---
 
-# Document Shell
+# Shell
 
 Use shdoc-style function headers and plain comments for `.sh`, `.bash`, `.zsh`,
-and `.fish`. Respect the shebang when it identifies the executable language.
+and `.fish`; a shebang may override extension detection.

@@ -1,16 +1,14 @@
 ---
-page_type: concept
+page_type: reference
 ---
 
 # Repository Scope
 
-This repository owns the accepted inline reference-docs workflow, reusable
-skills, tutorials, verification contracts, and Qualcomm preview product and
-architecture contracts. The source repository `devdocsorg/docs-first` remains
-the authority for shared page types, ontology, contribution rules, review
-rules, and documentation architecture.
+`devdocsorg/docs-first` remains the source repository and authority for shared
+page types, ontology, contribution rules, review rules, and documentation
+architecture. `reference-docs-spec` is a separate target repository under
+Jackson's account. It records the exact source revision used and must not
+rewrite source history or accept source-repository writes.
 
-Source examples and proof observations are provenance, not product behavior.
-Code changes to a Qualcomm proof repository happen only in a fork or review
-branch.
-
+Product behavior belongs in `product-docs`; implementation boundaries and
+verification contracts belong in `contributor-docs`.

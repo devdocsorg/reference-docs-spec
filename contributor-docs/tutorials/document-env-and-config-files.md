@@ -2,10 +2,8 @@
 page_type: tutorial
 ---
 
-# Document Environment And Config Files
+# Document Environment and Config Files
 
-Classify `.env`, `.env-example`, YAML, TOML, INI, JSON, and related config
-files separately from programming languages. Add simple comments near keys,
-avoid secrets and reference-framework tags, preserve existing comments, and
-record evidence in the preservation ledger.
-
+Use plain comments above `.env`, `.env.example`, YAML, TOML, INI, JSON, and
+other config keys where the format supports comments. Do not apply a language
+reference-doc framework, expose secrets, or add full setup samples.

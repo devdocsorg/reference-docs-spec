@@ -4,10 +4,8 @@ page_type: reference
 
 # Accepted Source Summary
 
-This target derives shared docs-first rules from `devdocsorg/docs-first` and
-product-specific behavior from the accepted implementation plan and Qualcomm
-preview design retained in `source-artifacts/`. The implementation plan defines
-the repository layout, language matrix, truth audit, static-site contract, and
-proof strategy. The preview design defines source setup, state transitions,
-approval, recovery, accessibility, privacy, and handoff.
-
+This target consumes `devdocsorg/docs-first` at
+`637a5bc400f7abb104f98d07b92e737dc098157`, the exact protected revision
+approved by the implementation plan and preview design. The source repository
+remains the authority for shared documentation architecture and contribution
+rules. This target revision is independently recorded at delivery.

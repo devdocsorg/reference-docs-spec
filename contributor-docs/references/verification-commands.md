@@ -4,14 +4,7 @@ page_type: reference
 
 # Verification Commands
 
-For this repository run:
-
-```sh
-python3 contributor-docs/scripts/verify_repository.py
-```
-
-An applied repository must additionally provide source inventory, preservation
-ledger, truth audit, static-site build, link, sidebar, and README output-path
-checks. Skill packaging verification records skill IDs, agent skill lists, and
-a fresh managed task invocation.
-
+Run `./scripts/verify.sh` for frontmatter, layout, source identity, and links.
+For a generated site, additionally run the configured Sphinx build, route
+enumeration, sidebar audit, and link checker. Record commands, exact source
+SHA, target SHA, manifests, and any retained failures.

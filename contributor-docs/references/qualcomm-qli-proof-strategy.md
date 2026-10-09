@@ -4,9 +4,8 @@ page_type: reference
 
 # Qualcomm QLI Proof Strategy
 
-Use an open-source Qualcomm repository, including at least one
-`qualcomm-meta*` repository when available. Work in a Jackson-owned fork or
-review branch, record source and proof commits, run inventory, preservation,
-truth, build, sidebar, link, and README checks, and confirm that the source
-repository was not mutated. Record what the proof does and does not establish.
-
+Apply only to a fork or review repository with a distinct identity, such as a
+`qualcomm-meta...` proof repository. Record source and proof SHAs, inventory,
+render/sidebar evidence, truth-audit evidence, and a source-mutation proof.
+The Qualcomm workspace-dependent agent lane remains blocked until a
+Qualcomm-scoped task token or supported admin path exists.

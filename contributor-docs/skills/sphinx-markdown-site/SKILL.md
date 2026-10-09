@@ -2,11 +2,9 @@
 page_type: reference
 ---
 
-# Sphinx Markdown Site Skill
+# Sphinx and Markdown Site Skill
 
-Create `docs/tooling` with Sphinx/MyST configuration and `docs/content` for
-generated output. Build `index.md`, `overview.md`, `reference.md`,
-`configuration.md`, and `api/index.md`; then check the output exists, links
-resolve, the sidebar exposes each group, and the README links to the generated
-index file. Stop on a failed build or unreachable route.
-
+Accept a repository path, title, landing label, source reference-doc paths,
+sidebar policy, and README destination. Produce `docs/tooling`, `docs/content`,
+navigation for every generated route, and render/sidebar/link evidence. Never
+write to a source repository.

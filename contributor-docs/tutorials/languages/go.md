@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document Go
+# Go
 
-Use Go doc comments for exported symbols and package documentation for `.go`
-packages. Match names and behavior to the source and tests.
-
+Use Go doc comments that begin with the symbol name and explain parameters,
+returns, and errors in concise prose.

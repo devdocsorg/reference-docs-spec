@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document C#
+# C#
 
-Use XML documentation comments for `.cs` symbols. Describe parameters,
-exceptions, and returns without adding behavior absent from the code.
-
+Use XML documentation comments for public symbols, including `<param>`,
+`<returns>`, and `<exception>` when applicable.

@@ -2,9 +2,8 @@
 page_type: tutorial
 ---
 
-# Document TypeScript And JavaScript
+# TypeScript and JavaScript
 
-Use TSDoc/TypeDoc-compatible tags for `.ts` and `.tsx`, and JSDoc for `.js`,
-`.jsx`, `.mjs`, and `.cjs`. Follow the shared rules, document typed parameters,
-errors, and returns, and keep examples small and source-supported.
-
+Use TSDoc for `.ts` and `.tsx`, and JSDoc for `.js`, `.jsx`, `.mjs`, and
+`.cjs`. Add one purpose sentence and idiomatic parameter, return, and error
+tags; follow the [shared rules](../../skills/inline-reference-docs/references/inline-comment-rules.md).

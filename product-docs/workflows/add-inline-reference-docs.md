@@ -4,25 +4,21 @@ page_type: tutorial
 
 # Add Inline Reference Docs
 
-Use this procedure when you need a reviewable documentation proposal for a
-repository.
+1. Enter a repository URL, ref, language scope, exclusions, destination policy,
+   and whether the result is local-only, a fork, or a review branch.
+2. Validate access, resolve the ref to an immutable source SHA, and show the
+   source-safety statement: `Preview only | Source read-only`.
+3. Inventory files, classify languages, exclude generated/vendor/build files,
+   and choose one representative file per supported type.
+4. Review proposals with the symbol signature, existing comments, source
+   evidence, framework rule, rendered route, and truth disposition.
+5. Refine preferences durably, then authorize a file, documentation profile, or
+   full-repository staging run using the exact input manifest.
+6. Inspect generated additions, quarantined corrections, failures, exclusions,
+   preservation ledger, truth audit, and rendered routes.
+7. Accept additions and corrections separately. Destination authorization is a
+   second action and must name a different repository identity.
 
-1. Record the repository URL or local path, revision, destination policy,
-   exclusion rules, and authorization boundary.
-2. Inventory source files and classify them by the
-   [language detection rules](../references/extension-language-detection.md).
-3. Exclude generated, vendor, lock, minified, and build-output files unless
-   the request explicitly includes them.
-4. Select representative files and show existing comments beside each proposal.
-5. Generate proposals from signatures, implementations, tests, configuration,
-   and accepted product rules. Record the evidence for every statement.
-6. Run the [truth-audit checklist](../../contributor-docs/skills/inline-reference-docs/references/truth-audit-checklist.md).
-7. Render the site, check its sidebar and links, and inspect the output.
-8. Obtain explicit approval for one file, one type, or the full repository.
-9. Write only to a fork or review branch, then retain the source revision,
-   review branch, audit, and cleanup evidence.
-
-Cancellation preserves the preview and audit record without writing. Retry
-reuses the frozen revision and records a new attempt. Partial failure leaves
-successful proposals reviewable and marks failed files for retry.
-
+Authorization permits generation and audit only; it never implies output
+acceptance or destination writes. Cancellation, retry, stale-source, partial
+failure, and reload states restore from immutable run records.

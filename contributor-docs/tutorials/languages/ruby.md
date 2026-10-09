@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document Ruby
+# Ruby
 
-Use YARD conventions for `.rb` methods and classes. Preserve existing comments
-and use source evidence for tags and examples.
-
+Use YARD tags for public methods and classes, with examples only for
+nontrivial values.

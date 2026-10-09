@@ -2,8 +2,7 @@
 page_type: tutorial
 ---
 
-# Document Java
+# Java
 
-Use Javadoc for `.java` symbols. Keep each summary sentence direct and record
-parameter, exception, and return types from the signature and implementation.
-
+Use Javadoc with a purpose sentence and `@param`, `@return`, and `@throws`
+where applicable.
