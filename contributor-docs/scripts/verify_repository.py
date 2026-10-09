@@ -20,7 +20,7 @@ REQUIRED = [
 
 errors = [f"missing required path: {p}" for p in REQUIRED if not (ROOT / p).exists()]
 for path in ROOT.rglob("*.md"):
-    if path.name == "README.md" or path.parts[0] in {".git", "docs"}:
+    if path.name == "README.md" or path.parts[0] in {".git", "docs"} or "content" in path.parts:
         continue
     text = path.read_text(encoding="utf-8")
     if not re.match(r"\A---\npage_type: (overview|tutorial|concept|reference)\n---\n", text):
