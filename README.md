@@ -19,12 +19,14 @@ architecture derived from that source contract.
 Start with [product workflows](product-docs/workflows/index.md), then use the
 [inline documentation skill](contributor-docs/skills/inline-reference-docs/SKILL.md)
 and [static-site skill](contributor-docs/skills/sphinx-markdown-site/SKILL.md).
+<<<<<<< HEAD
 [Product documentation](product-docs/index.md) defines the user workflow, and
 [contributor documentation](contributor-docs/index.md) defines the reusable
 skills, tutorials, architecture, and audits.
-The generated documentation path is [`docs/content`](examples/minimal-repository/docs/content).
+The generated documentation path is [`docs/content/index.html`](examples/minimal-repository/docs/content/index.html).
 
 ## Verification
 
 Run `./scripts/verify.sh` from the repository root. It checks page frontmatter,
-required directories, source identity, links, and the README path reference.
+required directories, source identity, links, the README path reference, and
+the runnable Sphinx/MyST example.
